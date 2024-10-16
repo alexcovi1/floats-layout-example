@@ -85,9 +85,10 @@ nav ul li {
 }
 
 .image{
-    margin: 35px;
+    margin: 50px;
     border: solid 3px #333;
-    max-width: 380px;
+    max-width: 400px;
+    height: 280px;
 }
 
 .text1 {
@@ -107,9 +108,18 @@ nav ul li {
     
 }
 
+#h2title{
+
+    margin-bottom: 15px;
+
+}
+.aftertitle{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
 
 .first {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     
 }
 
