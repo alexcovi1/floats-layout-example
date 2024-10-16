@@ -61,7 +61,7 @@ nav ul li {
 
 /* Main Content */
 .content {
-    display: flex;
+    display: inline-block;
     width: 100%;
     height: calc(150vh - 150px);
     /* Altezza totale della pagina, meno la barra di navigazione e il footer */
@@ -72,9 +72,9 @@ nav ul li {
 /* Main box (70% width) */
 .main-content {
     background-color: rgb(255, 255, 255);
-    width: 65%;
+    width: 100%;
     padding: 0px;
-
+    
 }
 
 #h2title {
@@ -104,14 +104,14 @@ nav ul li {
 /* Float left for the first image */
 #left-image {
     float: left;
-    width: 45%; 
+    width: 30%; 
     margin-right: 10px; 
 }
 
 /* Float right for the second image */
 #right-image {
     float: right;
-    width: 45%; 
+    width: 30%; 
     margin-left: 10px;
     margin-bottom: 20px; 
 }
@@ -121,7 +121,7 @@ nav ul li {
     clear: both;
     padding: 30px;
     text-align: center;
-    margin: 16px;
+    margin: 10px;
     border: solid 1px red;
     padding: 16px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -192,40 +192,7 @@ nav ul li {
     margin-bottom: 24px;
 }
 
-/* Side navigation (30% width) */
-.side-nav {
-    background-color: #333;
-    height: 100%;
-    width: 35%;
-    padding: 20px;
-}
 
-
-.side-nav h2 {
-    color: white;
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 30px;
-}
-
-.secondary-nav {
-    list-style: none;
-    text-align: center;
-}
-
-.secondary-nav li {
-    margin-bottom: 10px;
-}
-
-.secondary-nav a {
-    color: lightblue;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.secondary-nav a:hover {
-    color: lightgreen;
-}
 
 /* Footer */
 footer {
