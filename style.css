@@ -7,6 +7,7 @@
     list-style: none;
 }
 
+
 /* Primary Navigation */
 .nav-container {
     padding: 32px 32px;
@@ -14,6 +15,7 @@
     background: #1f1f1f;
     
 }
+
 
 
 .logo {
@@ -59,29 +61,71 @@ nav ul li {
 .content {
     display: flex;
     width: 100%;
-    height: calc(250vh - 150px);
-    /* Altezza totale della pagina, meno la barra di navigazione e il footer */
+    height: calc(150vh - 150px);/* Altezza totale della pagina, meno la barra di navigazione e il footer */
+    
+
 }
 
 /* Main box (70% width) */
 .main-content {
     background-color: rgb(255, 255, 255);
     width: 65%;
-    padding: 20px;
-    text-align: center;
+    padding: 0px;
+    
 }
 
-#h1title {
+#h2title {
     font-size: 24px;
     color: black;
+   
 }
+
+.article-picture {
+    float: right;
+}
+
+.image{
+    margin: 35px;
+    border: solid 3px #333;
+    max-width: 380px;
+}
+
+.text1 {
+    /* clear: right; */
+    margin: 16px;
+    border: solid 1px red;
+    padding: 16px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
 
 #text {
-    color: #f90909;
+    color: #040404;
     font-size: 18px;
     margin-top: 20px;
+    
 }
 
+
+.first {
+    margin-bottom: 8px;
+    
+}
+
+.second {
+    margin-bottom: 16px;
+    
+}
+
+.third {
+    margin-bottom: 8px;
+    
+}
+
+.last {
+    margin-bottom: 24px;
+}
 /* Side navigation (30% width) */
 .side-nav {
     background-color: #333;
