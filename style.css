@@ -1,0 +1,190 @@
+/* Reset basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Primary Navigation */
+.nav-container {
+    padding: 32px 32px;
+    max-height: 80px;
+    background: #1f1f1f;
+    
+}
+
+
+.logo {
+    width: 8%;
+    margin-left: 20px;
+    margin-top: -2%;
+}
+
+/* Primary nav */
+.primary-nav {
+    list-style: none;
+    margin-left: 77%;
+    margin-top: -40px;
+}
+
+.primary-nav a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 18px;
+    float: right;
+    width: 50%;
+    list-style-type: none; /* Rimuove i pallini dalla lista */
+    padding: 0;
+    margin: 0;
+    text-align: right; /* Allinea la lista a destra */
+}
+
+nav ul {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.primary-nav a:hover {
+    color: lightgreen;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    width: 100%;
+    height: calc(250vh - 150px);
+    /* Altezza totale della pagina, meno la barra di navigazione e il footer */
+}
+
+/* Main box (70% width) */
+.main-content {
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    padding: 20px;
+    text-align: center;
+}
+
+#h1title {
+    font-size: 24px;
+    color: black;
+}
+
+#text {
+    color: #f90909;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Side navigation (30% width) */
+.side-nav {
+    background-color: #333;
+    height: 100%;
+    width: 35%;
+    padding: 20px;
+}
+
+.sticky-element{
+    position: sticky;
+    top: 0; /* Diventa fisso quando raggiunge il top della pagina */
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 20px;
+}
+.side-nav h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.secondary-nav {
+    list-style: none;
+    text-align: center;
+}
+
+.secondary-nav li {
+    margin-bottom: 10px;
+}
+
+.secondary-nav a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.secondary-nav a:hover {
+    color: lightgreen;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+}
+
+.footer-nav {
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-nav li {
+    margin: 0 10px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: lightgreen;
+}
+
+/* Footer separator line */
+footer hr {
+    border: 1px solid gray;
+    width: 100%;
+    margin: 10px auto;
+}
+
+/* Footer text */
+footer p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Bottone "Back to Top" */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.back-to-top:hover {
+    background-color: green;
+}
+
+.back-to-top:active {
+    background-color: blue;
+}
