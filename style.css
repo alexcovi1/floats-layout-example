@@ -112,7 +112,8 @@ nav ul li {
 #right-image {
     float: right;
     width: 45%; 
-    margin-left: 10px; 
+    margin-left: 10px;
+    margin-bottom: 20px; 
 }
 
 #text-clear{
